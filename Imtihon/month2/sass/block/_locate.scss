@@ -1,0 +1,117 @@
+.locate {
+    margin-top: 30px;
+    padding-top: 100px;
+
+    &-list {
+        display: flex;
+        justify-content: center;
+        gap: 0 30px;
+
+        &__item {
+            position: relative;
+
+            &--header {
+                margin-top: 80px;
+                margin-bottom: 27px;
+                @include paragraph(24px, 28px);
+                color: #495567;
+            }
+        }
+    }
+}
+
+.locate-list::before {
+    position: absolute;
+    left: 0;
+    // right: 350px;
+    // max-width: 904px;
+    right: 24%;
+    max-width: 64%;
+    width: 100%;
+    border: 10px solid #e5ecf4;
+    content: "";
+}
+
+.oval {
+    position: absolute;
+    top: -47px;
+    // z-index: 1000;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    @include display;
+    background: #FCB72B;
+
+}
+
+@media only screen and (max-width:768px) {
+    .locate-list {
+        display: block;
+    }
+
+    .locate-list::before {
+        content: "";
+        position: absolute;
+        top: 722px;
+        left: 140px;
+        max-height: 400px;
+        height: 100%;
+        width: 0px;
+    }
+
+    .locate-list__item--header {
+        margin: 0;
+        max-width: 398px;
+    }
+
+    .oval {
+        position: static;
+        // margin-left: 97px;
+
+        margin: 0 auto;
+    }
+
+    .locate-list__item {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        display: flex;
+        // flex-wrap: wrap;
+        gap: 0 79px;
+        align-items: flex-start;
+    }
+
+    .locate-list__item--paragraph {
+        max-width: 398px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .locate {
+        padding: 0 32px;
+    }
+
+    .locate-list::before {
+        content: "";
+        display: none;
+    }
+
+    .locate-list__item {
+        text-align: center;
+        display: block;
+    }
+
+    .locate-list__item--header {
+        max-width: 311px;
+        text-align: center;
+        width: 100%;
+        @include paragraph(20px, 28px);
+        color: #495567;
+    }
+
+    .locate-list__item--paragraph {
+        margin: 0;
+        max-width: 311px;
+        width: 100%;
+    }
+}

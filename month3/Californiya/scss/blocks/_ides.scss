@@ -1,0 +1,34 @@
+// .ideas-row{
+//     display: flex;
+//     img{
+//         max-width: 620px;
+//         width: 100%;
+//         margin-left: 30px;
+//     }
+// }
+// .ideas--make{
+//         max-width: 569px;
+//         width: 100%;
+// }
+.ideas-images{
+    img{
+        max-width: 620px;
+        width: 100%;
+    }
+}
+.ideas-row{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 35px;
+}
+.hhh{
+    max-width: 569px;
+    margin-bottom: 28px;
+    width: 100%;   
+}
+.ideas--make{
+   max-width: 460px;
+   width: 100%;
+   @include paragraph(24px,30px);
+}

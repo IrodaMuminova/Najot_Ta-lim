@@ -1,0 +1,15 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+@media only screen and (max-width:375px) {
+    .container {
+        max-width: 375px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}

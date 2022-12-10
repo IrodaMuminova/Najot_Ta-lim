@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <h1 class="visually-hidden">cal</h1>
+
+  <!-- HEADER QISMI  -->
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo" href="index.html">
+        <img class="logo__img" src="img/logo.svg" alt="Site logo" width="58" height="20" />
+      </a>
+      <div class="header__btn">
+        <img src="./img/Burger-menu.svg" alt="burder">
+      </div>
+      <nav class="nav">
+        <ul class="nav__list d-f justify-content-center">
+          <li class="nav__item">
+            <a class="nav__link" href="#">all products</a>
+          </li>
+          <li class="nav__item dropdown">
+            <a class="nav__link dropdown-toggle" data-bs-toggle="dropdown" href="#">Solutions</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">ABOUT</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#">Support</a>
+          </li>
+
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><img src="./img/search.svg" alt=""></a>
+        <a href="#"><img src="./img/korzinka.svg" alt=""> </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- START MAIN  -->
+  <main>
+    <div class="container hero__container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" id="caskad" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+            class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" id="caskad" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" id="caskad" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex">
+            <div class="hero-box">
+              <h1 class="header__h1">The new phones are here take a look.</h1>
+              <p class="header__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est
+                dui, aliquam, tempor. Faucibus morbi turpis.</p>
+              <div class="exp">Explore</div>
+            </div>
+
+            <img src="./img/main.png" class="d-block w-100" alt="..." width="647px" height="557px">
+          </div>
+          <div class="carousel-item d-flex">
+            <div class="hero-box">
+              <h1 class="header__h1">The new phones are here take a look.</h1>
+              <p class="header__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est
+                dui, aliquam, tempor. Faucibus morbi turpis.</p>
+            </div>
+            <img src="./img/main.png" class="d-block w-100" alt="..." width="647px" height="557px">
+          </div>
+          <div class="carousel-item d-flex">
+            <div class="hero-box">
+              <h1 class="header__h1">The new phones are here take a look.</h1>
+              <p class="header__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est
+                dui, aliquam, tempor. Faucibus morbi turpis.</p>
+            </div>
+            <img src="./img/main.png" class="d-block w-100" alt="..." width="647px" height="557px">
+          </div>
+        </div>
+        <button class="carousel-control-prev hero__carusel--left" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon left-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next with-carusel hero__carusel--left" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon right-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- SHOP SAVE  -->
+  <div class="shop">
+    <div class="container">
+      <h2 class="shop__header">Shop our latest offers and categories</h2>
+      <p class="shop__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+        aliquam, tempor. Faucibus morbi turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="row row-gap ">
+        <div class="col-6  new-col dd-top">
+
+          <div class="row row-gap">
+            <div class="col-12  laptop shadow">
+
+              <img src="./img/laptop.png" class="card-img-top" alt="...">
+              <div class="shop__body">
+                <p class="text-end shop__body--pargaraph">Laptops</p>
+                <h5 class="text-end shop__body--header">True Laptop Solution</h5>
+
+              </div>
+            </div>
+            <div class="col-12 laptop shadow  d-flex watch">
+              <img src="./img/not-just.png" class="card-img-top" alt="...">
+              <div class="shop__body">
+                <p class="text-start shop__body--pargaraph ">Watch</p>
+                <h5 class="text-start shop__body--header">Not just stylisht</h5>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-3 laptop  new-col laptop-phone float-end">
+          <img src="./img/day-life.png" alt="sss" class="col-phones">
+          <div class="shop__body laptop-phone__body">
+            <p class="text-center shop__body--pargaraph ">Phones</p>
+            <h5 class="text-center shop__body--header laptop-phone__body--header">Your day to day life</h5>
+          </div>
+
+
+
+
+        </div>
+        <div class="col-3 laptop  new-col ">
+          <div class="shop__body laptop-phone__body">
+            <p class="text-center shop__body--pargaraph">Tablet</p>
+            <h5 class="text-end shop__body--header laptop-phone__body--header">Empower your work</h5>
+          </div>
+          <img src="./img/empower.png" alt="sss">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SHOP END  -->
+
+  <!-- START SAVE  -->
+  <div class="save">
+    <div class="container">
+      <h2 class="shop__header">Save on our most selled items.</h2>
+      <p class="shop__paragraph">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+
+      <div class="row">
+        <div class="col-3 save-col">
+          <img src="./img/macBook.png" alt="macBook">
+          <div class="save__row ">
+            <h3 class="save__row-header">MacBook Pro 13</h3>
+            <p class="save__row--header">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+            <h4 class="save__row--sum">$ 1,200.00 USD</h4>
+          </div>
+        </div>
+        <div class="col-3 save-col">
+
+          <img src="./img/smart.png" alt="macBook">
+          <div class="save__row ">
+            <h3 class="save__row-header">MacBook Pro 13</h3>
+            <p class="save__row--header">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+            <h4 class="save__row--sum">$ 1,200.00 USD</h4>
+          </div>
+
+        </div>
+        <div class="col-3 save-col">
+          <img src="./img/macBookAir.png" alt="macBook">
+          <div class="save__row ">
+            <h3 class="save__row-header">MacBook Pro 13</h3>
+            <p class="save__row--header">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+            <h4 class="save__row--sum">$ 1,200.00 USD</h4>
+          </div>
+
+        </div>
+        <div class="col-3 save-col">
+          <img src="./img/Ipad.png" alt="macBook">
+          <div class="save__row ">
+            <h3 class="save__row-header">MacBook Pro 13</h3>
+            <p class="save__row--header">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+            <h4 class="save__row--sum">$ 1,200.00 USD</h4>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SAVE END  -->
+
+  <!-- START SEE BEST -->
+  <!-- <div class="see-best">
+  <div class="container">
+    <h2 class="shop__header">See the best around here</h2>
+    <p class="shop__paragraph">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+
+    <div class="row best">
+      <div class="col-4 see__col">
+        <div class="best__smart">
+          <p class="shop__paragraph text-center">Smart light bulb pack</p>
+       
+        
+          <h3 class="text-center">Latest and gratest</h3>
+        </div>
+        <img src="./img/latest.png" alt="latest">
+      </div>
+      <div class="col-4 see__col">
+        <div>
+          <h6>Smart light bulb pack</h6>
+          <h3>Latest and gratest</h3>
+        </div>
+        <img src="./img/best-selling.png" alt="latest">
+      </div>
+      <div class="col-4 see__col">
+        <div>
+          <h6>Smart light bulb pack</h6>
+          <h3>Latest and gratest</h3>
+        </div>
+        <img src="./img/every-product.png" alt="latest">
+      </div>
+    </div>
+  </div>
+</div> -->
+  <div class="ideas">
+    <div class="container">
+      <h2 class="shop__header">Ideas have a place here</h2>
+      <p class="shop__paragraph">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+      <div class="ideas-row">
+        <div class="ideas-images">
+          <img src="./img/Ideas.png" alt="Ideas">
+        </div>
+        <div class="column">
+          <p class="ideas--make">We Make It Easy To Find The Great Design Talent, Easier...</p>
+          <p class="ideas--make">Road Design Handbook For The International Road...</p>
+          <p class="ideas--make">The Best Kept Secrets About Creative People</p>
+          <p class="ideas--make">We Make It Easy To Find The Great Design Talent, Easier...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SEE BEST END  -->
+
+
+  <!-- START SEE ALL  -->
+  <div class="all">
+    <div class="container">
+      <p class="all--paragraph text-center">See all <img src="./img/image-strelka.png" alt="strelka"></p>
+
+      <h2 class="shop__header">Ideas have a place here</h2>
+      <div class="all__search text-center">
+        <img src="./img/search.svg" alt="" class="search-image">
+
+        <form>
+          <input type="text" class="search" placeholder="search">
+        </form>
+      </div>
+      <div class="button text-center mt-2">
+        <button class="btn rounded-pill mx-1 my-1">iPhone</button>
+        <button class="btn rounded-pill mx-1 my-1">Charger</button>
+        <button class="btn mx-2 my-1">Gift</button>
+        <button class="btn mx-2 my-1">Google Pixel 3</button>
+        <button class="btn mx-2 my-1">Keyboard</button>
+        <button class="btn mx-2 my-1">13 Pro Max</button>
+        <button class="btn mx-2 my-1">iPhone 12</button>
+        <button class="btn mx-2 my-1">Laptop</button>
+        <button class="btn mx-2 my-1">Mobile</button>
+      </div>
+
+    </div>
+  </div>
+  <!-- START END  -->
+
+  <!-- Start NEVER  -->
+
+  <div class="never">
+    <div class="container never-container text-center">
+      <h2 class="shop__header">Never miss a thing</h2>
+      <p class="shop__paragraph">Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+
+      <img src="./img/never.png" alt="never" class="mt-2">
+      <!-- <div class="btn-email">
+        <form>
+          <input type="email " placeholder="Your email" class="btn rounded-pill"></form>
+        <button class="sign-up bg-dark"> Sign up</button>
+      </div> -->
+      <div class="input-group mb-3 sign-up text-center btn-input">
+      
+       
+        <input type="email " placeholder="Your emaill" class="sign-up__input form-control btn rounded-pill-start">
+        <span class="input-group-text bg-dark ">Sign-up</span>
+        <!-- <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)"> -->
+      </div>
+
+    </div>
+  </div>
+  <!-- NEVER End  -->
+
+
+  <div class="download">
+    <div class="container download-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="./img/logo.svg" alt="logo">
+          <p class="notified">Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+        </div>
+        <div class="col-8 innn">
+          <div class="row">
+            <div class="col">
+              <ul class="download__list">
+                <li class="download__list--item">All products</li>
+                <li class="download__list--item"> <a href="#" class="download__list--link">Phones</a></li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Watch</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Tablet</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Laptops</a> </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="download__list">
+                <li class="download__list--item">Company</li>
+                <li class="download__list--item"> <a href="#" class="download__list--link">Phones</a></li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Watch</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Tablet</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Laptops</a> </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="download__list">
+                <li class="download__list--item">Support</li>
+                <li class="download__list--item"> <a href="#" class="download__list--link">Phones</a></li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Watch</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Tablet</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Laptops</a> </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="download__list">
+                <li class="download__list--item">Follow Us</li>
+                <li class="download__list--item"> <a href="#" class="download__list--link">Phones</a></li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Watch</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Tablet</a> </li>
+                <li class="download__list--item"><a href="#" class="download__list--link">Laptops</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="hr">
+
+    
+  </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+
+      <div class="row">
+        <div class="col d-flex justify-content-between">
+              <div class="mt-4"><b>Made By:</b><span> Azwedo<img src="./img/image-strelka.png" alt="strelka"></span></div>
+              <div class="mt-4"><b>Powered by:</b><span> Webflow <img src="./img/image-strelka.png" alt="strelka"></span></div>
+        </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+
+</html>

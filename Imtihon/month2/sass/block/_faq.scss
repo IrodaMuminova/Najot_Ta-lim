@@ -1,0 +1,138 @@
+.faq {
+    margin-top: 120px;
+}
+
+.faq-box {
+    display: flex;
+
+    &-two {
+        margin-top: 64px;
+    }
+
+    &__header {
+        max-width: 350px;
+        width: 100%;
+        margin-right: 30px;
+        @include paragraph(40px, 48px);
+        color: #495567;
+        text-align: left;
+    }
+
+    &__item {
+        padding: 32px 40px;
+        background: #F2F5F9;
+        margin-bottom: 16px;
+
+        &-last {
+
+            width: 730px;
+            width: 100%;
+            display: flex;
+            gap: 0 314px;
+            justify-content: space-between;
+
+            h4 {
+                max-width: 465px;
+                width: 100%;
+                @include paragraph(24px, 28px);
+                color: #495567;
+            }
+        }
+
+        &--paragraph {
+            max-width: 650px;
+            display: none;
+        }
+    }
+}
+
+.faq-header {
+    @include paragraph(40px, 48px);
+    color: #495567;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.tepa {
+    display: none;
+}
+
+.faq-box__item:hover {
+
+    background: #FFF4DF;
+    cursor: pointer;
+
+    .past {
+        display: none;
+    }
+
+    .faq-box__item--paragraph {
+
+        display: block;
+    }
+
+    .tepa {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .faq {
+        padding: 0 39px;
+
+    }
+
+    .faq-box {
+        display: block;
+
+        &__item-last {
+            gap: 0 31%;
+        }
+
+        &__header {
+            text-align: center;
+        }
+    }
+
+    .faq-box__item--paragraph {
+        max-width: 651px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .faq {
+        padding: 0;
+    }
+
+    .faq-box {
+        &__item-last {
+            gap: 0 16px;
+
+            h4 {
+                @include paragraph(18px, 24px);
+                color: #495567;
+                width: 211px;
+            }
+        }
+    }
+
+    .faq-box__item {
+        max-width: 311px;
+        padding: 32px 28px;
+    }
+
+    .faq-box__item--paragraph {
+        max-width: 251px;
+    }
+
+    .faq-header {
+        @include paragraph(32px, 32px);
+        color: #495567;
+    }
+
+    .faq-box__header {
+        @include paragraph(24px, 28px);
+        color: #495567;
+    }
+}

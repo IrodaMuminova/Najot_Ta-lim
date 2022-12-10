@@ -1,0 +1,45 @@
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2), only screen and(min-resolution: 192dpi), only screen and (min-resolution:2dppx) {
+    .intro{
+        background-image: url('../../images/about@2x.png');
+    }
+}
+
+.intro {
+    // padding-top: 93px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../../images/about.png');
+    background-position: center;
+    padding-top: 212px;
+    padding-bottom: 72px;
+    background-size: cover;
+    position: relative;
+
+    .hero__circle {
+        right: -27px;
+        top: 168px;
+
+    }
+
+    &__scooter {
+        @include paragraph;
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .intro__scooter {
+        margin-left: 97px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .hero__circle {
+        display: none;
+    }
+
+    .intro__scooter {
+        margin-left: 0;
+        text-align: center;
+    }
+}

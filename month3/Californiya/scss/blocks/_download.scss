@@ -1,0 +1,41 @@
+.download{
+    background: #F8F9FA;
+    &-container{
+margin-top: 19px;
+padding-top: 44px;
+margin-bottom: 0;
+    border-radius: 0px;
+    }
+}
+.down-name{
+    @include font(22px,28px);
+}
+.download__list{
+    padding-bottom: 78px;
+   &--item{
+    @include font(22px,28px);
+   }
+   &--link{
+    @include paragraph(17px,22px);
+    color: #000;
+   }
+}
+.inter{
+    max-width: 304px;
+    width: 100%;
+}
+.notified{
+    margin-top: 18px;
+    max-width: 304px;
+    width: 100%;
+}
+.hr{
+max-width: 1350px;
+width: 100%;
+background: #DCE5E2;
+}
+@media only screen and (max-width:576px){
+    .innn{
+        display: none;
+    }
+}

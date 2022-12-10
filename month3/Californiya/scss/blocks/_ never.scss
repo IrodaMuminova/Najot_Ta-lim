@@ -1,0 +1,28 @@
+.never-container{
+    margin-top: 68px;
+    background: #DCE5E2;
+border-radius: 16px;
+max-width: 935px;
+width: 100%;
+padding-top: 47px;
+padding-bottom: 43px;
+}
+.sign-up{
+    display: flex;
+    margin-top: 14px;
+
+    justify-content: center;
+    &__input{
+        padding: 15px 184px 15px 32px;
+        max-width: 295px;
+        border: 1px solid #000000;
+        width: 100%;
+        border-radius: 54px 0px 0px 54px;
+    }
+    span{
+        padding: 16px 32px;
+        background: #000000;
+border-radius: 0px 200px 200px 0px;
+color: #fff;
+    }
+}

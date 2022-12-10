@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/* 1-QISM heroarea*/
+
+/* Header qismi  */
+header {
+    position: fixed;
+    z-index: 10;
+    z-index: 1;
+    background: #F8EDF0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.heroarea {
+    position: relative;
+}
+
+.heroarea {
+    background: #F8EDF0;
+    height: 862px;
+   
+}
+
+.header-inner {
+    display: flex;
+}
+
+.header-logo {
+    margin-top: 10px;
+    width: 79px;
+    height: 79px;
+}
+
+.header-list {
+    display: flex;
+    margin: 42px 132px 0px 266px;
+}
+
+.header-list li {
+    margin-right: 40px;
+    position: relative;
+}
+
+.header-list li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(21, 1, 1, 0.6);
+}
+
+.header-list .header-list-pro {
+    font-weight: 700;
+    font-size: 15px;
+    color: #D23166;
+}
+
+.header-list li:nth-child(2) {
+    width: 44px;
+}
+
+.header-list li:nth-child(3) {
+    width: 49px;
+}
+
+.header-list li:nth-child(4) {
+    width: 80px;
+}
+
+.header-list li:nth-child(5) {
+    width: 80px;
+}
+
+.header-list li:hover a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #D23166;
+}
+
+.buy-now {
+    margin-top: 25px;
+    padding-top: 3px;
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Hind Madurai',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.buy-now:hover {
+    background: #F8EDF0;
+    border: 1px solid rgba(228, 222, 222, 0.6);
+    font-size: 18px;
+    color: #D23166;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    transition: 0.3s;
+
+}
+
+
+/*Header End*/
+
+/* .main-container {
+    position: relative;
+    display: flex;
+} */
+
+.sweet_fun {
+    font-weight: 500;
+    font-size: 14px;
+    color: #0F0101;
+}
+
+.feel_inside {
+    width: 665px;
+    height: 130px;
+    margin-bottom: 35px;
+    font-family: 'Fredoka One';
+    font-weight: 400;
+    font-size: 57.33px;
+    color: rgb(15, 1, 1, 0.9);
+}
+
+.some_food {
+    width: 523px;
+    height: 78px;
+    margin-bottom: 38px;
+    font-family: 'Hind Madurai',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(15, 1, 1, 0.6);
+}
+
+
+
+
+
+
+.heroarea-inner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 196px;
+}
+
+
+
+
+
+
+
+
+.heroarea-main {
+    width: 45%;
+    margin-top: 40px;
+}
+
+.heroarea-image {
+    position: absolute;
+    background-image: url('../images/bg-image.png');
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 500px;
+    right: 0;
+    top: 196px;
+}
+
+.ice-cream {
+    color: #D23166;
+}
+
+/* HEROAREA END  */
+
+
+/* DELIVERY :start  */
+.container-delivery {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+}
+
+.container-delivery-list {
+    display: flex;
+    gap: 0px 35px;
+}
+
+.container-delivery-list li {
+    padding: 0px 26px 27px 26px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    width: 250px;
+    height: 200px;
+}
+
+.container-delivery-list li img {
+    margin: 33px 100px 24px 99px;
+}
+
+.free-shiping {
+    font-family: 'Hind Madurai',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.last-chance {
+    font-family: 'Hind Madurai',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.container-delivery-list .delivery-shadow {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+}
+
+.container-delivery-list li:hover {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+}
+
+/* DELIVERY :end  */
+
+.details {
+    height: 544px;
+    margin-top: 100px;
+    background: #F8EDF0;
+}
+
+.container-details {
+    display: flex;
+}
+
+.details-sugar {
+    margin: 141px 74px 146px 0px;
+    width: 450px;
+    height: 256px;
+}
+
+.details-sugar .brown {
+    font-family: 'Hind Madurai',sans-serif;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+
+}
+
+.details-sugar .donald {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(21, 1, 1, 0.6);
+}
+
+.details-brown {
+    width: 349px;
+    height: 98px;
+}
+
+.detals-image {
+    background-image: url(../images/section2-image.png);
+    width: 655px;
+}
+
+/* PRODUCT QISMI  */
+
+
+.feedback {
+    height: 2346px;
+    padding-top: 137px;
+    margin-bottom: 149px;
+    background: #fff;
+    position: relative;
+}
+
+.feedback-header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background: #fff;
+
+}
+
+.our-product {
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    text-align: center;
+    /* position: relative; */
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    gap: 0px 40px;
+    height: 100px;
+    padding: 25px 0px;
+}
+
+.product-list li a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.product-list .product-list-ice a {
+    color: #000;
+}
+
+.product-list-ice {
+    border-bottom: 3px solid #D64374;
+}
+
+.product-list li {
+    padding: 4px 0px;
+    height: 40px;
+    align-items: center;
+}
+
+.product-list li:hover {
+    border-bottom: 3px solid #D64374;
+    transition: 0.2s;
+}
+
+.product-list li:hover a {
+    color: #000;
+    transition: 1s;
+}
+
+.brown-bread {
+    margin-top: 50px;
+    width: 1119px;
+    height: 415px;
+    display: flex;
+}
+
+.brown-bread-image {
+    width: 580px;
+    height: 415px;
+    background-image: url(../images/brownbread.png);
+}
+
+.brown-bread-bon {
+    width: 454px;
+    height: 234px;
+    margin-left: 85px;
+    margin-top: 109px;
+}
+
+.brown-bread-bon .brown-bread-bon-brown {
+    font-weight: 700;
+}
+
+.brown-bread-bon p {
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: left;
+    color: #000000;
+}
+
+.brown-bread-bon .donald {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.brown-bread-bon .dollar {
+    font-weight: 500;
+}
+
+.brown-bread-bon .dollar span {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.brown-bread-bon .buy-now {
+    margin-top: 10px;
+}
+
+.chocolate .chocolate-image {
+    background-image: url(../images/cayenne.png);
+    width: 580px;
+    height: 415px;
+    position: relative;
+    left: 8px;
+}
+
+.chocolate-cayenne p {
+    text-align: right;
+}
+
+.chocolate-cayenne .buy-now {
+    position: relative;
+    left: 285px;
+}
+
+.sweet-corn .brown-bread-image {
+    background-image: url(../images/sweetcorn.png);
+}
+
+.adele {
+    display: flex;
+    margin-top: 199px;
+}
+
+.american {
+    display: flex;
+
+}
+
+.american .american-image {
+    background-image: url(../images/grill.png);
+    width: 59px;
+    height: 58px;
+}
+
+.american-neill {
+    height: 50px;
+    width: 179px;
+    margin-left: 14px;
+}
+
+.american-neill p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.american-neill p span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.quote {
+    margin-top: 46px;
+    width: 330px;
+    height: 53px;
+}
+
+.quote p {
+    display: inline;
+}
+
+.quote img {
+    width: 10.97px;
+    height: 10px;
+}
+
+.adel-list {
+    margin-top: 50px;
+    display: flex;
+    height: 200px;
+    width: 250px;
+}
+
+.adel-list .list-arrowleft,
+.list-arrowright {
+    width: 8.22px;
+    height: 14px;
+    margin: 15px 28px;
+}
+
+.taste .adel-list .list-leftman {
+    position: relative;
+    margin-right: 27px;
+    margin-top: 6px;
+}
+
+.list-leftman img:hover {
+    border-radius: 50%;
+    border: 1px solid #D64374;
+}
+
+.adel-list .list-rigt-grill {
+    margin-top: 5px;
+    margin-left: 27px;
+}
+
+.adele-image {
+    background-image: url(../images/threecream.png);
+    width: 564px;
+    height: 442px;
+    margin-left: 220px;
+}
+
+/* DOWNLOAD QISMI  */
+.download {
+    height: 678px;
+    background: #F8EDF0;
+    /* padding-top: 60px; */
+}
+
+.download-container {
+    display: flex;
+}
+
+.download-image {
+    background-image: url(../images/MaskGroup.png);
+    width: 305px;
+    height: 627px;
+    margin-right: 134px;
+    position: relative;
+    top: 36px;
+}
+
+.download-order {
+    width: 621px;
+}
+
+.simple {
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+}
+
+.download-simple p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(15, 1, 1, 0.7);
+}
+
+.download-simple {
+    margin-top: 20px;
+    margin-bottom: 31px;
+    width: 600px;
+}
+
+.order-list li {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.image-select {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 8.5px;
+    padding: 8px;
+    border-radius: 3px;
+    text-align: center;
+    background: #fff;
+}
+
+.select-list {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.market-app {
+    display: flex;
+    margin-top: 41px;
+    align-items: baseline;
+}
+
+.download-order .market-app .app-store {
+    position: relative;
+    top: 5px;
+}
+
+/* ASK QUESTION QISMI  */
+.question {
+    height: 545px;
+}
+
+.mind {
+    width: 637px;
+    height: 225px;
+    margin: 191px 530px 129px 200px;
+}
+
+.mind-simple {
+    width: 522px;
+    height: 123px;
+    text-align: center;
+}
+
+.question-list {
+    display: flex;
+    width: 637px;
+    height: 144px;
+}
+
+.question-container .mind .question-list li .text-input {
+    height: 74px;
+    width: 503px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(15, 0, 0, 0.6);
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.send-input {
+    border: 0px;
+    width: 134px;
+    height: 74px;
+    background: #D64374;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* FOOTER QISMI  */
+footer {
+    height: 381px;
+    background: #0A0808;
+    color: #fff;
+}
+
+.footer-container {
+    padding: 70px 0px 0px 0px;
+}
+
+.footer-logo {
+    background-image: url(../images/logo.png);
+    width: 79px;
+    height: 79px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-some-list .footer-some {
+    width: 207px;
+    height: 47px;
+}
+
+.footer-some-list .some-list-fllow {
+    margin-top: 25px;
+}
+
+.intro-list {
+    margin-top: 8px;
+}
+
+.some-list-fllow {
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer-some {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.intro-list a img {
+    margin-right: 10px;
+}
+
+.contact-list {
+    margin-left: 37px;
+    position: relative;
+    bottom: 14px;
+}
+
+.contact-list li,
+.footer-delivery li {
+    margin-bottom: 10px;
+}
+
+.footer-delivery {
+    margin-left: 132px;
+    position: relative;
+    bottom: 7px;
+}
+
+.news-letter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.email {
+    width: 263px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background: #0A0808;
+    color: rgba(255, 255, 255, 0.6);
+    border: 0px;
+    border-radius: 2px;
+    padding: 20px 32px;
+    /* border-bottom:  2px solid #D64374; */
+
+}
+
+.footer-action {
+    width: 389px;
+    height: 55px;
+    display: flex;
+    border-radius: 5px;
+   
+    border: 2px solid #D64374;
+    border-radius: 5px;
+}
+.end{
+    margin-left: 151px;
+    position: relative;
+    bottom: 11px;
+}
+
+.subscribe {
+    width: 125px;
+    height: 51px;
+    left: 1218px;
+    top: 5525px;
+    background:#D23166;
+    color: #FFFFFF;
+    border-radius: 5px;
+   border: 0;
+}
+.news-letter{
+    position: relative;
+bottom: 8.5px;
+    margin-bottom: 13px;
+}
+.footer-paypall{
+    display: flex;
+    margin-top: 15px;
+    gap:0px 15px;
+}
+.footer-paypall div:nth-child(2){
+    margin-top: 1.8px;
+}
+.footer-paypall div:nth-child(3){
+    margin-top: 3.8px;
+}
+

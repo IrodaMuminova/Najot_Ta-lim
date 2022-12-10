@@ -1,0 +1,47 @@
+@mixin paragraph($size: 56px, $line-height: 56px) {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $size;
+  line-height: $line-height;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+@mixin font-header($size: 15px, $line-height: 25px) {
+  font-family: 'Lexend Deca', 'Arial', Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: $size;
+  line-height: $line-height;
+  color: #939CAA;
+}
+
+@mixin font {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+
+}
+
+@mixin display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin before($top: 175px, $left: 140px) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  text-align: center;
+  background: #FCB72B;
+  @include paragraph(24px, 28px);
+  @include display;
+  color: #495567;
+}

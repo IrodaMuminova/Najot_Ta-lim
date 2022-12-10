@@ -1,0 +1,23 @@
+@mixin  font($font:58px,$line-height:70px){
+    font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: $font;
+line-height: $line-height;
+/* or 120% */
+
+
+color: #000000;
+}
+@mixin paragraph($font:16pxpx,$line-height:19px){
+    font-family: 'Inter' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: $font;
+line-height: $line-height;
+
+/* or 120% */
+
+
+color: #000000;
+}

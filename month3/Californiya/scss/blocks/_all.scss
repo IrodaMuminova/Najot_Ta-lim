@@ -1,0 +1,44 @@
+.all{
+    margin-top: 73px;
+    position: relative; 
+
+}
+.all--paragraph{
+    @include paragraph(24px,29px);
+}
+.search{
+    position: relative;
+    background: #F8F9FA;
+border: 1px solid #C5C5C5;
+border-radius: 100px;
+padding: 21px 20px;
+}
+.search-image{
+    position: relative;
+    top: 45px;
+    left: -267px;
+z-index: 2;
+}
+.search{
+    padding-left: 70px;
+}
+.all__search{
+    margin-left:auto;
+
+    input{
+        max-width: 620px;
+        width: 100%;
+    }
+}
+.button {
+   margin: 0 auto;
+    max-width: 620px;
+    width: 100%;
+    .btn{
+        background: #FFFFFF;
+border: 1px solid #C5C5C5;
+border-radius: 200px;
+padding: 12px 23px;
+@include paragraph(14px,17px);
+    }
+}

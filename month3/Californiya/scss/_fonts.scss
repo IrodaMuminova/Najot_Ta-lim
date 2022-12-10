@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fontsinter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fontsinter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fontsinter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fontsinter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fontsinter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fontsinter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* readex-pro-regular - latin */
+@font-face {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/readex-pro-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/readex-pro-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/readex-pro-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/readex-pro-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/readex-pro-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/readex-pro-v10-latin-regular.svg#ReadexPro') format('svg'); /* Legacy iOS */
+}
