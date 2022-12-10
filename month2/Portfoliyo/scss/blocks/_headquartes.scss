@@ -1,0 +1,39 @@
+/* HEADQUARTERS QISMI  */
+.headquarters-container {
+    margin-top: 168px;
+    padding-left: 85px;
+}
+
+.headquarters__item img {
+    margin-bottom: 45px;
+}
+
+.headquarters__item--kingdom {
+    max-width: 272px;
+}
+
+.headquarters__item--united {
+    max-width: 285px;
+    width: 100%;
+}
+
+.headquarters-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 95px;
+    &__item{
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:768px){
+    // .headquarters-container{
+    //     padding: 0;
+    // }
+    .headquarters__item--united {
+        max-width: 223px;
+        width: 100%;
+    }
+    .headquarters-list {
+        gap: 0px;
+        
+}}

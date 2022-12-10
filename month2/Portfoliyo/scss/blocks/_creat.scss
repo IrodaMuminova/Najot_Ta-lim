@@ -1,0 +1,72 @@
+@mixin width {
+   max-width: 445px; 
+   width: 100%;
+}
+@mixin size {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+}
+@mixin f-size {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.creat__plan{
+background-image: url(../images/Bitmap.png);
+background-repeat: no-repeat;
+border-radius: 10px;
+padding:134px 85px 134px 85px;
+margin-bottom: 20px;
+height: 100%;
+ &--great{
+    @include width;
+   @include size;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+ }
+ &--main{
+@include width;
+@include f-size;
+color: #FEFCF7;
+opacity: 0.8;
+ }
+
+}
+@media only screen and (max-width:768px){
+    .creat__plan{
+        padding: 127px 58px 127px 58px;
+        margin-bottom: 20px;
+    }
+   
+    @mixin  width {
+        max-width: 398px;
+    }
+    .creat__plan--great{
+        font-size: 48px;
+       line-height: 48px;
+    }
+    .creat__plan--main{
+        font-size: 15px;
+line-height: 25px;
+    }
+}
+@media only screen and (max-width:375px){
+    .creat__plan{
+        padding: 101px 24px 136px 24px;
+    }
+    @mixin  width {
+        max-width: 279px;
+    }
+.creat__plan--great{
+  font-size: 40px;
+    line-height: 40px;
+    }
+    .creat__plan--main{
+        font-size: 15px;
+line-height: 25px;
+    }
+  
+}

@@ -1,0 +1,410 @@
+@media only screen and (max-width:768px) {
+    .container {
+        width: 689px;
+        margin: 0 auto;
+        /* padding: 0 40px; */
+    }
+
+    header {
+        padding: 40px 0px 54px 0;
+        margin: 0;
+    }
+
+    /* Main qismi  */
+    .main-container {
+        margin-top: 138px;
+        background-image: url(../images/Bitmap-tablet.png);
+        padding: 104px 58px 80px 58px;
+        /* width: 689px; */
+    }
+
+    .great {
+        font-size: 48px;
+        line-height: 48px;
+        /* margin: 104px 0px 0px 54px; */
+    }
+
+    .main-great {
+        font-size: 15px;
+        line-height: 25px;
+        width: 398px;
+    }
+
+    /* Collection qismi  */
+    .collection {
+        padding-top: 0px;
+        margin-top: 78px;
+    }
+
+    .collection--blog {
+        background-image: url(../images/our-collection-tablet.png);
+        margin-right: 0;
+        margin-left: 0;
+        width: 689px;
+    }
+    .exspesso-list__item {
+        margin-top: 47px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px 36px;
+    }
+
+    .expresso--great {
+        width: 282px;
+    }
+
+    .expresso {
+        position: relative;
+        top: -210px;
+    }
+
+    .exspesso-list__item-gran {
+        padding-top: 28px;
+    }
+
+    /* CHOOSE QISMI  */
+    .quality__benifits {
+        position: relative;
+        bottom: 240px;
+        display: flex;
+        padding: 41px 48px 41px 70px;
+        margin-bottom: 24px;
+    }
+
+    .quality {
+        margin: 0 48px;
+    }
+
+    .quality__benifits--discover {
+        width: 344px;
+        margin: 0;
+        text-align: left;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .quality__benifits--best {
+        margin: 0;
+        text-align: left;
+    }
+
+    .media_quality {
+        margin-left: 55px;
+    }
+
+/* 
+    .works {
+        display: none;
+    } */
+
+    .works-container {
+        padding: 0px;
+    }
+.works__number--item {
+    padding-right: 10px;
+}
+.works__pick--cofee{
+width: 223px;
+font-size: 28px;
+line-height: 32px;
+}
+.works__pick .works__pick--select{
+    width: 223px;
+    font-size: 15px;
+line-height: 25px;
+}
+.works__circle--item{
+margin-right: 202px;
+padding: 13.5px;
+}
+ /* footer {
+        display: none;
+    }  */
+    
+    .footer-container{
+        margin-top: 144px;
+        display: block;
+        text-align: center;
+        padding: 54px 191px 56.25px 215px;
+    }
+    .footer-logo__list{
+        padding: 0;
+    }
+    footer .logo__list--item:nth-child(1){
+        margin-left: 0;
+    }
+    footer .logo__list{
+margin: 33px 0px 65px 0px;
+    }
+    footer .logo__brand{
+        margin-left: 12px;
+    }
+    footer .social-list{
+        margin-left: 69px;
+    }
+
+
+.every-container{
+    padding: 0;
+}
+/* .creat-works__circle{
+    display: none;
+} */
+.creat-works{
+    background: #2C343E;
+border-radius: 10px;
+padding-top: 97px;
+padding-bottom: 97px;
+}
+.creat-works-container{
+    background: transparent;
+}
+.capsule{
+    gap: 0 10px;
+}
+/* .creat-works .works__number--item:nth-child(1) {
+    border-top:0;
+}
+
+.creat-works .works__number--item:nth-child(2) {
+    border-top: 0;
+}  */
+.every--large{
+    font-size: 32px;
+    width: 506px;
+    text-align-last: left;
+}
+.path{
+    justify-content: start;
+    margin-right: 20px;
+}
+.creat-works__pick--select{
+    font-size: 15px;
+    line-height: 25px;
+    width: 223px;
+}
+    .creat_plan {
+        background-image: url(../images/Bitmap-creat-tablet.png);
+        max-width: 100%;
+        padding: 127px 0px 126px 58px;
+    }
+    .introduct__button{
+        margin-left: 0;
+    }
+    .creat-intro-button{
+        text-align: center;
+    }
+    .intro{
+        display: none;
+    }
+    .about_us{
+        margin-top: 138px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:375px) {
+
+    .container {
+        width: 327px;
+    }
+
+    /* HEADER QISMI */
+
+    header {
+        padding: 32px 0px 41px 0px;
+    }
+
+    .logo__brand a img {
+        width: 16.58px;
+        height: 16.62px;
+    }
+
+    .logo__brand--coffe {
+        width: 140.21px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo__list {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: block;
+    }
+    .great {
+        font-size: 40px;
+        line-height: 40px;
+        width: 279px;
+        margin-bottom: 24px;
+    }
+
+    .main--great {
+        font-size: 15px;
+        width: 279px;
+        line-height: 25px;
+    }
+
+    .main-container {
+        background-image: url(../images/hero-bg-mob.jpg);
+        margin-top: 113px;
+        padding: 100px 24px 99px 24px;
+    }
+
+    /* Collection qismi  */
+    .collection--blog {
+        background-image: url(../images/our-collection-mobile.png);
+        width: 286px;
+        margin: 0 auto;
+        margin-bottom: 13px;
+    }
+
+    .exspresso-image img {
+        width: 200px;
+        height: 151px;
+    }
+
+    .exspesso-list {
+        margin: 0 22px 0px 23px;
+        text-align: center;
+    }
+
+    .expresso--great {
+        font-size: 14px;
+        line-height: 25px;
+        width: 282px;
+        text-align: center;
+    }
+
+    .exspresso-image {
+        margin: 0 24.5px;
+    }
+    .quality {
+        margin: 0 24px;
+    }
+
+    .quality__benifits {
+        display: block;
+        padding: 72px 12px 51px 12px;
+        width: 255px;
+    }
+
+    .quality__benifits--discover {
+        font-size: 15px;
+        line-height: 25px;
+        width: 212px;
+        text-align: center;
+        margin: 0 21.5px;
+    }
+
+    .quality__benifits--best {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .media_quality {
+        margin: 0;
+        margin-top: 56px;
+    }
+
+    .large {
+        /* padding: 0; */
+        padding: 64px 24px 0px 24px;
+    }
+
+    .large--choose {
+        width: 279px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .large--level {
+        font-size: 15px;
+        line-height: 25px;
+        width: 279px;
+        padding-bottom: 661px;
+
+    }
+
+    .choose-container {
+        position: relative;
+    }
+
+    .quality {
+        position: absolute;
+        top: 545px;
+    }
+
+    /* .works {
+        display: none;
+    } */
+
+
+    .works-container{
+        margin-top: 700px;
+    }
+    .works__circle{
+        display: none;
+    }
+    .works__number--item:nth-child(2),.works__number--item:nth-child(1){
+        border-top: 0;
+    }
+    .works__number{
+        flex-wrap: wrap;
+    }
+    .works__number--item-one{
+        text-align: center;
+    }
+    .works--how,.works__pick--cofee{
+        width: 327px;
+        text-align: center;
+    }
+    .works__pick--item .works__pick--select{
+        width: 327px;
+        text-align: center;
+    }
+    .works__button{
+      margin-left:55px ;
+    }
+    /* footer {
+        display: none;
+    } */
+    .footer-container{
+        margin-top: 120px;
+        display: block;
+        text-align: center;
+        padding: 54.41px 54.25px 56.25px 55px;
+    }
+    .footer-logo__list{
+        padding: 0;
+    }
+    footer .logo__list--item:nth-child(1){
+        margin-left: 0;
+    }
+    .footer-logo__list{
+        display: block;
+        text-align: center;
+    }
+
+    /* footer .logo__list{
+margin: 33px 0px 65px 0px;
+    }
+    footer .logo__brand{
+        margin-left: 12px;
+    }
+ */
+ footer .social-list{
+   margin-top: 49px;
+    margin-left: 32px;
+}
+.logo__list--item{
+    margin: 0;
+    margin-top: 24px;
+}
+}

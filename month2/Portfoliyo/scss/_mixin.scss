@@ -1,0 +1,26 @@
+
+@mixin header-nav($size:12px){
+font-weight: 700;
+font-size: $size;
+line-height: 15px;
+}
+
+@mixin  hero-h1($size2:72px,$lineheight:72px){
+    font-family:'Fraunces',sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: $size2;
+line-height:$lineheight;
+color: #FEFCF7;
+}
+@mixin body($f-size:16px,$lh:26px){
+    font-family: 'Barlow',sans-serif;
+    font-weight: 400;
+    font-size: $f-size;
+    line-height: $lh;
+}
+@mixin gap($hh:30px) {
+    max-width: $hh;
+  
+    
+}

@@ -1,0 +1,46 @@
+.header {
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 44px 0;
+    }
+
+    &-mobile {
+        display: none;
+    }
+
+}
+
+.nav {
+    &__list {
+        display: flex;
+        gap: 0 32px;
+
+        &-item--link {
+            @include header-nav;
+            letter-spacing: 0.923077px;
+            color: #83888F;
+
+            &:hover {
+                color: #333D4B;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .nav__list {
+        margin-left: auto;
+    }
+}
+
+@media only screen and(max-width:375px) {
+    .nav {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+}

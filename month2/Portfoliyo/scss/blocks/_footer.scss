@@ -1,0 +1,85 @@
+ 
+/* FOOTER QISMI  */
+.footer-container {
+    background: #2C343E;
+    padding: 47px 85px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.logo__brand--coffero {
+    color: #fff;
+}
+
+.social-list {
+    display: flex;
+    gap: 0 24px;
+}
+
+.footer-logo__list {
+    padding: 0px 369px 0px 103px;
+}
+
+@media only screen and (max-width:768px){
+      
+    .footer-container{
+        margin-top: 144px;
+        display: block;
+        text-align: center;
+        padding: 54px 191px 56.25px 215px;
+    }
+   footer {
+    .nav__list{
+        margin: 33px 0px 65px 0px;
+    }
+    .nav__list-item{
+        padding: 0;
+        &-item:nth-child(1){
+            margin-left: 0;
+        }
+    }
+     .social-list{
+        margin-left: 69px;
+    }
+   } 
+   
+}
+
+@media only screen and (max-width:375px){
+    /* footer {
+        display: none;
+    } */
+    .footer-container{
+        margin-top: 120px;
+        display: block;
+        text-align: center;
+        padding: 54.41px 54.25px 56.25px 55px;
+    }
+    footer{
+        .nav{
+            display: block;
+        }
+        .nav__list{
+            display: block;
+            text-align: center;
+            padding: 0;
+        }
+        .nav__list-item{
+            display: block;
+            margin: 0;
+            margin-top: 24px;
+        }
+    .social-list{
+            margin-top: 49px;
+             margin-left: 32px;
+         }
+    }
+    
+    footer .logo__list--item:nth-child(1){
+        margin-left: 0;
+    }
+
+ 
+
+}

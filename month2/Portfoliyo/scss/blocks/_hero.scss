@@ -1,0 +1,70 @@
+.main {
+    background-image: url(../../images/Bitmap2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 10px;
+    padding:116px 0px 60px 85px;
+    &-great {
+        max-width: 493px;
+        width: 100%;
+        &__cofe {
+            @include hero-h1;
+        }
+
+        &__roaster {
+            margin-top: 24px;
+            color: #FEFCF7;
+            opacity: 0.8;
+        }
+    }
+
+    &__button {
+        margin-top: 40px;
+        background: #0E8784;
+        color: #FEFCF7;
+        border-radius: 6px;
+        padding: 15px 31px;
+
+        :hover {
+            @include hero-h1(18px, 25px);
+            background: #66D2CF;
+        }
+    }
+}
+
+@media only screen and(max-width:768px){
+    .main{
+        padding: 104px 58px 104px 58px;
+        &-great{
+            max-width: 398px;
+            &__cofe{
+                @include hero-h1(48px,48px)
+            }
+            &__roaster{
+                @include body(15px,25px);
+            }
+        }
+    }
+  
+}
+@media only screen and (max-width:375px){
+    .main{
+        padding: 100px 24px;
+        &-great{
+            max-width: 279px;
+            &__cofe{
+                @include hero-h1(40px,40px);
+                text-align: center;
+            }
+            &__roaster{
+                text-align: center;
+            }
+        }
+          &__button{
+       margin-left: 18%;
+       margin-right: 18%;
+    }
+    }
+    
+  
+}

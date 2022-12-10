@@ -1,0 +1,219 @@
+// .choose{
+//     background: #2C343E;
+// border-radius: 10px;
+// padding-top: 100px;
+// padding-right: 85px;
+// padding-left: 85px;
+// &__large{
+//     max-width: 540px;
+//     text-align: center;
+//     margin: 0 auto;
+//     &--header{
+//         @include hero-h1(40px,48px);
+//     }
+//     &--paragraph{
+//         @include body(16px,26px);
+//         color: #FEFCF7;
+//         opacity: 0.8;
+//     }
+// }
+// }
+// .best{
+//      max-width: 255px;
+//      width: 100%;
+//     margin: 0 auto;
+//     text-align: center;
+//     &__great{
+//         color: #FEFCF7;
+//         line-height: 32px;
+//     }
+//     &__gran{
+//         color: #FEFCF7;
+//         padding-top: 24px;
+//     }
+// }
+// .quality{
+//     position: relative;
+//     top: 113px;
+ 
+    
+//     display: flex;
+//     justify-content: space-between;
+//    gap: 30px;
+//     flex-wrap: wrap;
+    
+//     text-align: center;
+//     &-best{
+//         background: #0E8784;
+//         flex-grow: 1;
+        
+//                 border-radius: 8px; 
+//                 padding: 2%;
+//         // padding: 72px 47px 48px 47px;
+//     }
+// }
+
+// @media only screen and (max-width:768px){
+//     .choose__large--header{
+//         @include hero-h1(32px,48px);
+
+//     }
+//     .choose__large--paragraph{
+//         @include body(15px,25px);
+//     }
+//     .quality-best{
+//         display: flex;
+//     }
+// }
+.choose-container{
+    background: #2C343E;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+
+.quality {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 85px;
+    gap: 0px 30px;
+    &__benifits{
+        background: #0E8784;
+        border-radius: 8px;
+        padding: 72px 48px 48px 47px;
+        text-align: center;
+        margin-bottom: 14px;
+        position: relative;
+        top: 170px;
+        // flex-grow: 2;
+        &--best{
+            @include hero-h1(24px,32px);
+            text-align: center;
+            color: #FEFCF7;
+            margin: 56px 0px 24px 0px;
+           max-width: 255px;
+        }
+    }
+}
+
+.quality .quality__benifits:nth-child(3) img {
+    margin: 11px 0px;
+}
+
+.quality__benifits--discover {
+    text-align: center;
+    color: #FEFCF7;
+    max-width: 255px;
+}
+.large {
+    text-align: center;
+   
+     max-width: 540px;
+    margin: 0 auto;
+    &--choose{
+        @include hero-h1(40px,48px);
+        text-align: center;
+        color: #FEFCF7;
+        // max-width:  329px;
+        text-align: center;
+    }
+    &--level {
+        /* text-align: center; */
+        color: #FEFCF7;
+        padding: 32px 0px;
+        opacity: 0.8;
+      
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .quality img{
+        margin: 0 auto;
+    }
+    .quality {
+        margin: 0 48px;
+        &__benifits{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__benifits--discover{
+           max-width: 344px;
+            margin: 0;
+            text-align: left;
+            @include body(15px,25px); 
+        }
+        &__benifits--best{
+            margin: 0;
+            text-align: left;
+        }
+    }
+    .large{
+        max-width: 540px;
+    }
+
+    .media_quality {
+        max-width: 399px;
+    }
+
+}
+
+@media only screen and (max-width:375px){
+    .quality {
+        margin: 0 24px;
+        &__benifits {
+            display: block;
+            padding: 72px 12px 51px 12px;
+            width: 255px;
+          &--discover {
+                font-size: 15px;
+                line-height: 25px;
+                width: 212px;
+                text-align: center;
+                margin: 0 21.5px;
+            }
+            &--best {
+                text-align: center;
+                margin-bottom: 24px;
+            }
+        
+        }
+    }
+
+    
+
+    
+
+ 
+//     .media_quality {
+//         margin: 0;
+//         margin-top: 56px;
+//     }
+
+//     .large {
+//         /* padding: 0; */
+//         padding: 64px 24px 0px 24px;
+//     }
+
+//     .large--choose {
+//         width: 279px;
+//         font-size: 28px;
+//         line-height: 28px;
+//     }
+
+//     .large--level {
+//         font-size: 15px;
+//         line-height: 25px;
+//         width: 279px;
+//         padding-bottom: 661px;
+
+//     }
+
+//     .choose-container {
+//         position: relative;
+//     }
+
+//     .quality {
+//         position: absolute;
+//         top: 545px;
+//     }
+}
