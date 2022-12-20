@@ -1,7 +1,11 @@
 // 4. Agar har bir elementdan 1 tadan sotib olinsa, jami qancha bo'ladi
 
 function shoppingSpree(arr) {
-    // your code here    
+    let sum=0;
+    arr.forEach(element => {
+        sum+=element.price;
+    });   
+    return sum;
  }
  
  var wishlist = [
